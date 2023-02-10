@@ -1,0 +1,30 @@
+a {
+    color: black;
+}
+.logomenus  {
+    display: flex;
+    justify-content: space-between;
+    height: 2.5rem;
+    align-items: center;
+    padding: 0 2rem;
+}
+.logoprincipal a {
+    color: #35a5e6;
+    font-size: 2.1rem;
+    font-weight: bold;
+}
+.menusprincipais a { 
+    margin-left: 2rem;
+}
+.menu {
+    display: none;
+    font-size: 1.2rem;
+}
+@media (max-width: 768px) {
+    .menusprincipais {
+        display: none;
+    }
+    .menu {
+        display: inline-block;
+    }
+}
